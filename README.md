@@ -41,4 +41,29 @@ Sempre que houver enunciados, estarão juntamente com o código.
     - protegido leva um '_' underscore antes da variável, métodos, ex.: _nome
     - privado leva dois'__' underscores antes das variável, métodos, ex.: __nif
 
-### 
+### Aula 6 - 2024-10-09
+- classes privadas e protegidas
+- decoradores @staticmethod
+- trabalho 2 para entregar até o dia 14
+    - Nome: Informações Automóveis
+    - sobre classes, construtores e métodos
+
+### Aula 7 - 2024-10-11
+- 1 hora para resolução do exercício 2 (já terminei na aula passada, aproveito para outro estudo)
+- variável global e local
+    - o global antes da variável indica que ela é global, ex: global variavel_global2
+    - Quando usamos o termo global em uma variável dentro de outra função conseguimos modificá-lo
+- Âmbito em funções *arg e **kwargs
+    - unpacking operators (* e **)
+    - 2 asteriscos "**" pode ser utilizado em dicionários
+- Decoradores '@'
+    - ex.: temos 2 funções e metemos o decorador imediatamente antes da função2 com o @função1, ele irá chamar primeiro a função 1 antes de executar a função 2.
+
+- Serialialization e deserialization pág.94
+    - Cria um serialização de informação que podem funcionar em outras linguagens, exemplo o Json
+    - Pickle, ex. pickle.dump(objx, ficheiro) e pickle.load(file)
+    - pip install jsonpickle
+- Teste, registo e depuração pág.110
+    - Try, Except
+- Metaprogramação, programação dinâmica
+    - Metaclasse
